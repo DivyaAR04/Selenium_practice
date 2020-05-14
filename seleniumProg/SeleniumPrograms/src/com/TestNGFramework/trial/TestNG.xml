@@ -1,0 +1,13 @@
+<?xml version="1.0"   encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="yahooo app test automation suite">
+	<test name="Yahoo App Test">
+		<parameter name="browser" value="Firefox"/>
+		<parameter name="url" value="https://login.yahoo.com/?.intl=us" />
+		<parameter name="user_na" value="viprava@yahoo.com"/>
+		<classes>
+			<class name="com.TestNGFramework.trial.ParameterTest"/>
+		</classes>
+	</test>
+</suite>
